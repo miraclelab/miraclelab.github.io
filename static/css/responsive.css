@@ -1,0 +1,210 @@
+@media only screen and (max-width: 991px) {
+    /* header */
+    .header {
+        position: relative;
+        border-bottom: none;
+    }
+    .header.nav-fixed {
+        background: #fff;
+    }
+    .header button {
+        position: relative;
+        right: 10px;
+        top: 50%;
+        margin-top: -16px;
+        padding: 0;
+        height: 30px;
+        width: 30px;
+        border: 1px solid #fff;
+        float: right;
+        outline: none;
+        color: #fff;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .header button .navbar-toggler-icon {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        vertical-align: top;
+    }
+    .header .mobile-header {
+        background: #151E39;
+        padding: 6px 30px;
+        position: relative;
+    }
+    .header .mobile-header:after {
+        position: absolute;
+        content: '';
+        left: -136px;
+        top: 0;
+        right: -136px;
+        height: 100%;
+        background: #151E39;
+        z-index: -1;
+    }
+    .header .main-menu .navbar .navbar-nav .nav-item .nav-link {
+        color: #333;
+        padding: 17px 20px;
+        border-bottom: 1px solid rgba(106, 57, 218, 0.23);
+        text-align: left;
+        display: block;
+        background: #fff;
+    }
+    .header .main-menu .navbar .navbar-nav .nav-item:last-child .nav-link {
+        border-bottom: none;
+    }
+    .feature .tab-content,
+    .joinbox .content {
+        padding: 1rem
+    }
+    .testimonnial {
+        margin-top: 0;
+    }
+    .pt-4 {
+        padding-top: 0!important;
+        padding-bottom: 1rem
+    }
+    .min-height-none {
+        min-height: 0;
+        width: 100%;
+    }
+    .header .main-menu .navbar .navbar-nav .nav-item {
+        float: none
+    }
+    .section-title h2,
+    .info-single-feature .part-text h2 {
+        font-size: 28px;
+    }
+    .joinbox {
+        padding: 50px 0 20px 0;
+    }
+    /* banner */
+    .banner,
+    #myCanvas {
+        height: 500px;
+    }
+    .banner .container {
+        padding-top: 120px
+    }
+    .banner .banner-content {
+        text-align: center;
+    }
+    .banner .banner-content h1 {
+        font-size: 3rem;
+    }
+    .banner .banner-content p {
+        font-size: 2rem
+    }
+    .banner .banner-content p br {
+        display: none;
+    }
+	.banner .counter{font-size: 4rem;}
+    .info-single-feature {
+        margin-bottom: 30px;
+    }
+    /* feature */
+    .feature {
+        margin-top: 0;
+        padding: 80px 0;
+		height:550px;
+		background:none
+    }
+    .info-single-feature {
+        margin-bottom: 30px;
+    }
+    .testimonial {
+        padding: 73px 0 20px;
+        margin-top: 0;
+    }
+    .rulelist .list-inline li .text-left {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .rulelist-big .c-blue {
+        display: block;
+    }
+    .banner,
+    Canvas {
+        height: 400px;
+    }
+    .banner .container {
+        padding-top: 15%;
+    }
+	.banner .counter{font-size: 3rem;}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .header .mobile-header:after {
+        left: -115px;
+        right: -115px;
+    }
+    /* testimonial */
+    .card-deck .card {
+        width: 100%;
+        flex: none;
+        display: block;
+        margin-bottom: 1rem
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .banner,
+    #myCanvas {
+        height: 300px;
+    }
+    .banner .banner-content h1 {
+        font-size: 2.5rem;
+    }
+    .feature {
+        padding: 10px 0 30px;
+        height: 400px;
+    }
+    .section-title {
+        margin-bottom: 20px;
+    }
+    .card-title {
+        font-size: 20px
+    }
+    .tabform {
+        padding-left: 0;
+        padding-right: 0
+    }
+    .tabform .input-group {
+        width: 100%;
+    }
+    .tabform-btnbox .btn {
+        font-size: 16px
+    }
+    .rulelist .list-inline li {
+        padding: .5rem
+    }
+    .card-title {
+        margin-bottom: 0
+    }
+    .feature .tab-content,
+    .joinbox .tab-content {
+        padding: 1rem;
+    }
+    .feature .container {
+        position: initial;
+        margin: -80px 10px 10px;
+        padding-top: 30px;
+        width: auto;
+    }
+    #totalall .t_num i {
+        width: 33px;
+        height: 47px;
+        margin: 0 2px;
+        display: inline-block;
+        background: url(../img/number2.png) no-repeat;
+        background-position: 0 0;
+        background-size: 33px auto;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 479px) {}
+
+@media only screen and (min-width: 320px) and (max-width: 359px) {}

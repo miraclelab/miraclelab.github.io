@@ -1,0 +1,68 @@
+{
+    "button": {
+      "singapore": "Singapore",
+      "english": "English"
+    },
+		"feature": {
+		  "t01": "Exchange",
+		  "t02": "Token",
+		  "title": "Participate",
+		  "h2": "Current burning ratio",
+		  "noticket": "Change the token",
+		  "send": "Send",
+		  "rule": "Rule"
+		},
+		"recommend": {
+		  "t01": "My referee is",
+		  "t02": "My direct push quantity",
+		  "t03": "My invitation link",
+		  "copylink": "Copy my invitation link",
+		  "btn": "Immediately invited"
+		},
+		"ruleModal": {
+		  "title": "Rules of play",
+		  "list01": "An account can only accept one investment before exiting, and can continue to invest after exiting",
+		  "list02": "Static dividends fluctuate from 0.3% to 2.2% per day",
+		  "list03": "Out of the game, according to 1-10 for the investment amount of 3 times, 11-30 for the investment amount of 4 times, greater than 31 for the investment amount of 5 times",
+		  "list04": "Dynamic recommendation 25% according to: 10%->8%->7% to get dynamic rewards, instant cash withdrawal",
+		  "list05": "After the prize pool reaches the specified time, the prize pool will not settle until the next round is opened.",
+		 "list06": "Dynamically precipitates into a red pool if the conditions are not met"
+		},
+		"GameModal": {
+		  "title": "Token",
+		  "ticketTitle": "Purchase admission Tokens",
+		 "buy": "Buy"
+		},
+		
+		"joinbox": {
+		  "t01": "Statistics",
+		  "t02": "Ddata",
+		  "tab01": "Earnings",
+		  "tab02": "Performance",
+		  "tab03": "Data",
+		  "Onelist01": "User level ",
+		  "Onelist02": "VIP",
+		  "Onelist03": "Bonus income",
+		  "Onelist04": "Current promotion income",
+		  "Onelist05": "Jackpot earnings",
+		  "Onelist06": "VIP bonus",
+		  "Onelist07": "Residual income",
+		  "clean": "Settle",
+		  "withdraw": "withdraw",
+		  "cash": "Withdraw income",
+		  "recommend": "My invitation link",
+		  "total": "View my statistics",
+			"Twolist01": "Number of Shared ids",
+			"Twolist02": "All",
+			"Twolist03": "Main",
+			"Threelist01": "Token burnout rate",
+			"Threelist02": "Burned token",
+			"global": "Global total performance",
+			"withdrawTip": "Tips: click the withdrawal button to withdraw all the withdrawal rewards."
+		},
+		"testimonial": {
+		  "t01": "Prize Draw",
+			"t02": "There's still time for the next draw",
+		  "info": "The Grand Prize Pool will be awarded once every 24 hours. For each new investment, the time will be extended by 3 hours, and 100% of the prize pool will be awarded to the last 500 players with the largest investment. The small prize pool will be awarded once every 24 hours, 1/3 for the first prize, 1/3 for the second prize, and 1/3 for the third prize."
+		}
+  }
